@@ -41,11 +41,11 @@
 
 .section-intro h1 {
     
-    text-align: center;
+    text-align: justify;
+    text-decoration-style: initial;
     color:whitesmoke;
-    border-radius: 50px;
     background-color:transparent;
-    outline: auto;
+    outline: 10px;
     font-size: 4em;
     font-weight: 700;
     position: relative;
@@ -107,6 +107,7 @@ a.link-to-book:hover {
 
 .carousel-inner {
     height: 700px;
+    display: flex;
 }
 
 .row-flex {
