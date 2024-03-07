@@ -28,7 +28,7 @@
 }
 
 .section-intro {
-    height: 820px;
+    height: 620px;
     background-image: url(img/home-background.jpeg);
     background-size: cover;
     display: flex;
@@ -39,9 +39,13 @@
 
 .section-intro h1 {
     text-align: center;
-    color: #ffffff;
+    color:white;
+    background-color: dimgrey;
+    outline: auto;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
     font-size: 4em;
     font-weight: 700;
+    
 }
 
 .section-intro header {
