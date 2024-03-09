@@ -176,6 +176,15 @@ a.link-to-book:hover {
     .section-intro {
         height: 500px;
     }
+@media (max-width: 767px) {
+  .section-intro span {
+    font-size: 18px; /* Adjust the font size as needed for mobile */
+  }
+}
+.section-intro span {
+    font-family: 'Tangerine', cursive; /* Add the desired font family */
+    font-size: 36px; /* Adjust the font size for larger screens */
+  }
 
     .about-section p,
     .about-section h3 {
