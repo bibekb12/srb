@@ -178,7 +178,7 @@ a.link-to-book:hover {
     }
 @media (max-width: 767px) {
   .section-intro span {
-    font-size: 18px; /* Adjust the font size as needed for mobile */
+    font-size: 10px; /* Adjust the font size as needed for mobile */
   }
 }
 .section-intro span {
@@ -244,3 +244,74 @@ a.link-to-book:hover {
     }
 
 }
+/* Add this CSS for adjusting the font size on mobile devices */
+@media (max-width: 767px) {
+    .section-intro span {
+      font-size: 10px; /* Adjust the font size as needed for mobile */
+    }
+  }
+  
+  /* Close the existing media query for screens between 577px and 800px */
+  @media (min-width: 577px) and (max-width: 800px) {
+    .section-intro {
+      height: 500px;
+    }
+  
+    .about-section p,
+    .about-section h3 {
+      font-size: 20px;
+    }
+  
+    .carousel-inner {
+      height: auto;
+    }
+  
+    .row-flex {
+      display: flex;
+      flex-direction: column;
+    }
+  } /* Close the media query for screens between 577px and 800px */
+  
+  /* Open a new media query for screens with a maximum width of 767px */
+  @media screen and (max-width: 576px) {
+    .section-intro {
+      height: 300px;
+    }
+  
+    .about-section {
+      padding: 30px;
+    }
+  
+    .section-intro h1 {
+      font-size: 2em;
+    }
+  
+    .about-section p,
+    .about-section h3 {
+      font-size: 15px;
+    }
+  
+    .carousel-inner {
+      height: auto;
+    }
+  
+    .row-flex {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .row-flex h3 {
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    .form-group p {
+      font-size: 15px;
+    }
+  
+    .opening-time p span,
+    .contact-adress p span {
+      font-size: 15px;
+      text-align: center;
+    }
+  } 
