@@ -29,14 +29,14 @@
 
 /* Styling for the intro section */
 .section-intro {
-  height: 620px;
+  height: 920px;
   background-image: url(img/home-background.jpeg);
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: inherit;
+  background-color: initial;
 }
 
 .section-intro h1 {
