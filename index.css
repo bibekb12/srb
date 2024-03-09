@@ -39,6 +39,7 @@
     
 }
 .section-intro h1 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     font-weight: bold;
@@ -139,6 +140,7 @@ a.link-to-book:hover {
 }
 
 .btn.btn-primary {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     font-family: 'Big Shoulders Text', cursive;
     color: #ffffff;
     background-color: #95999e;
