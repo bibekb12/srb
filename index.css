@@ -41,7 +41,7 @@
 .section-intro h1 {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     text-shadow: inherit;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Tangerine', serif;
     font-size: 4em;
     font-weight: bold;
     color: white;
@@ -54,7 +54,7 @@
     text-align: center;
     margin: 0;
     position: relative;
-    animation: moveIntro 10s ease-out infinite;
+    animation: moveIntro 4s ease-out infinite;
   }
 
 /* .section-intro h1 {
