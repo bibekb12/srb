@@ -40,11 +40,12 @@
 }
 .section-intro h1 {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    text-shadow: inherit;
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     font-weight: bold;
     color: white;
-    background: linear-gradient( #ff512f, #ff8c00);
+    background: linear-gradient( #3703af, #01b13c);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -52,8 +53,8 @@
     /* transform: rotateX(10deg) rotateY(10deg) rotateZ(10deg); */
     text-align: center;
     margin: 0;
-    position: absolute;
-    animation: moveIntro 18s ease infinite;
+    position: relative;
+    animation: moveIntro 10s ease-out infinite;
   }
 
 /* .section-intro h1 {
