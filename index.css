@@ -211,7 +211,9 @@
   }
 
   .section-intro h1 {
-    font-size: 100%;
+    font-size: 1em;
+    text-justify: #ffffff;
+    
   }
 
   .about-section p,
