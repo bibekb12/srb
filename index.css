@@ -1,6 +1,13 @@
 /* Import the Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 
+
+.social-media-ico
+{
+  float: right;
+  margin-left: inherit;
+}
 /* General styling for navigation */
 .nav-flex-row {
   display: flex;
@@ -44,30 +51,56 @@
 
 .section-intro h1 {
   /* Styling for the animated heading */
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
-  text-shadow: inherit;
+  text-shadow: 0 20px 0 0 rgba(68, 145, 218, 0.26);
+  /* box-shadow: 0 2px 5px 20px rgba(102, 172, 238, 0.26); */
   font-family: 'Tangerine', serif;
-  font-size: 4em;
+  font-size:10em;
+  font-style: oblique;
   font-weight: bold;
-  color: white;
-  background: linear-gradient( #3703af, #01b13c);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: purple;
+  -webkit-text-stroke: 5px rgb(4, 54, 10);
   text-align: left;
-  margin: 0;
   position: absolute; /* Position absolutely for scrolling */
-  animation: scrollText 5s linear infinite alternate; /* Adjust duration as needed */
+  animation: neon 1s linear infinite alternate;
+
+}
+
+.neon {
+  font-size: 30px;
+  color: green;
+  text-align: center;
+  animation: neon 1s ease-in-out infinite alternate;
 }
 
 /* Keyframes for the text scrolling animation */
 @keyframes scrollText {
   0% {
-    transform: translateX(-90%); /* Start from initial position */
+    transform: translateX(-40%); /* Start from initial position */
   }
   100% {
-    transform: translateX(90%); /* Scroll to the right */
+    transform: translateX(40%); /* Scroll to the right */
+  }
+}
+@-webkit-keyframes neon {
+  from {
+      text-shadow: 0 0 10px rgb(43, 255, 0),
+                  0 0 20px rgb(93, 236, 64),
+                  0 0 30px #89f773,
+                  0 0 40px #99f886,
+                  0 0 50px #b5faa7,
+                  0 0 60px #cff5c8,
+                  0 0 70px #ddf3d9;
+  }
+  to {
+      text-shadow: 0 0 20px #edf8fa;
+                  0 0 30px #4dff7a,
+                  0 0 40px #4dff7a,
+                  0 0 50px #4dff7a,
+                  0 0 60px #4dff7a,
+                  0 0 70px #4dff7a,
+                  0 0 80px #4dff7a;
   }
 }
 
@@ -87,6 +120,8 @@
 
 /* Styling for the about section */
 .about-section {
+  font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px #aaa;
   display: flex;
   align-items: center;
   background-color: #f3f3f3c0;
@@ -191,6 +226,7 @@
     display: flex;
     flex-direction: column;
   }
+
 }
 
 /* Media query for screens with a maximum width of 767px */
@@ -211,18 +247,27 @@
   }
 
   .section-intro h1 {
+    font-size: 8em;
     font-size: x-large ;
     text-justify: #ffffff;
-    animation: scrollText1 2s linear infinite alternate;    
+    animation: scrollText1 5s linear infinite alternate;    
   }
   @keyframes scrollText1 {
     0% {
-      transform: translateX(-30%); /* Start from initial position */
+      transform: translateX(-90%); /* Start from initial position */
     }
     100% {
-      transform: translateX(30%); /* Scroll to the right */
+      transform: translateX(90%); /* Scroll to the right */
     }
   }
+/* added addition codes here for the couse pointer hover*/
+.section-intro h1:hover {
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.section-intro h1:hover span {
+  transform: scale(1.5); /* Zoom effect on hover */
+}
 
   .about-section p,
   .about-section h3 {
