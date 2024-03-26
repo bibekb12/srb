@@ -7,6 +7,7 @@
 {
   float: right;
   margin-left: inherit;
+  margin: 20px;
 }
 /* General styling for navigation */
 .nav-flex-row {
@@ -55,6 +56,7 @@
   /* box-shadow: 0 2px 5px 20px rgba(102, 172, 238, 0.26); */
   font-family: 'Tangerine', serif;
   font-size:10em;
+  text-decoration-line: red;
   font-style: oblique;
   font-weight: bold;
   background-clip: text;
@@ -75,14 +77,14 @@
 }
 
 /* Keyframes for the text scrolling animation */
-@keyframes scrollText {
+/* @keyframes scrollText {
   0% {
-    transform: translateX(-40%); /* Start from initial position */
+    transform: translateX(-40%); 
   }
   100% {
-    transform: translateX(40%); /* Scroll to the right */
+    transform: translateX(40%); 
   }
-}
+} */
 @-webkit-keyframes neon {
   from {
       text-shadow: 0 0 10px rgb(43, 255, 0),
@@ -95,7 +97,7 @@
   }
   to {
       text-shadow: 0 0 20px #edf8fa;
-                  0 0 30px #4dff7a,
+                  0 0 30px #4dff7a;
                   0 0 40px #4dff7a,
                   0 0 50px #4dff7a,
                   0 0 60px #4dff7a,
@@ -208,7 +210,7 @@
 }
 
 /* Media query for screens between 577px and 800px */
-@media (min-width: 577px) and (max-width: 800px) {
+/* @media (min-width: 577px) and (max-width: 800px) {
   .section-intro {
     height: 500px;
   }
@@ -227,7 +229,7 @@
     flex-direction: column;
   }
 
-}
+} */
 
 /* Media query for screens with a maximum width of 767px */
 @media (max-width: 767px) {
@@ -248,18 +250,22 @@
 
   .section-intro h1 {
     font-size: 8em;
-    font-size: x-large ;
-    text-justify: #ffffff;
-    animation: scrollText1 5s linear infinite alternate;    
+    font-size: large ;
+    color: grey;
+  }
+    /* text-justify: #ffffff;
+    animation: neon 5s linear infinite alternate;    
   }
   @keyframes scrollText1 {
     0% {
-      transform: translateX(-90%); /* Start from initial position */
+      transform: translateX(-90%); 
     }
     100% {
-      transform: translateX(90%); /* Scroll to the right */
+      transform: translateX(90%); 
     }
-  }
+  } */
+
+
 /* added addition codes here for the couse pointer hover*/
 .section-intro h1:hover {
   cursor: pointer; /* Change cursor on hover */
