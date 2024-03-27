@@ -55,10 +55,11 @@
   text-shadow: 0 20px 0 0 rgba(68, 145, 218, 0.26);
   /* box-shadow: 0 2px 5px 20px rgba(102, 172, 238, 0.26); */
   font-family: 'Tangerine', serif;
-  font-size:10em;
+  font-size:15em;
   text-decoration-line: red;
   font-style: oblique;
   font-weight: bold;
+  font-weight: bolder;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: purple;
@@ -249,9 +250,10 @@
   }
 
   .section-intro h1 {
-    font-size: 8em;
+    /* font-size: 8 em; */
     font-size: large ;
     color: grey;
+    animation: neon 1s linear infinite alternate;
   }
     /* text-justify: #ffffff;
     animation: neon 5s linear infinite alternate;    
