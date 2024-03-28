@@ -5,9 +5,7 @@
 
 .social-media-ico
 {
-  float: right;
-  margin-left: inherit;
-  margin: 20px;
+  float: left;
 }
 /* General styling for navigation */
 .nav-flex-row {
