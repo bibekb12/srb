@@ -84,7 +84,7 @@
     transform: translateX(40%); 
   }
 } */
-@-webkit-keyframes neon {
+@keyframes neon {
   from {
       text-shadow: 0 0 10px rgb(43, 255, 0),
                   0 0 20px rgb(93, 236, 64),
@@ -105,7 +105,6 @@
   }
 }
 
-/* Styling for the header within the intro section */
 .section-intro header {
   display: flex;
   flex: 4;
@@ -114,12 +113,12 @@
   align-items: center;
 }
 
-/* Styling for the link-to-book section */
+
 .link-to-book-wrapper {
   flex: 1;
 }
 
-/* Styling for the about section */
+
 .about-section {
   font-family: 'Tangerine', serif;
   text-shadow: 4px 4px 4px #aaa;
@@ -152,19 +151,19 @@
   text-transform: uppercase;
 }
 
-/* Styling for the carousel */
+
 .carousel-inner {
   height: 700px;
   display: flex;
 }
 
-/* Styling for the row-flex section */
+
 .row-flex {
   display: flex;
   flex-direction: row;
 }
 
-/* Styling for the form section */
+
 .flex-column-form {
   display: flex;
   flex-direction: column;
@@ -173,7 +172,6 @@
 }
 
 .btn.btn-primary {
-  /* Styling for the primary button */
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
   font-family: 'Big Shoulders Text', cursive;
   color: #ffffff;
@@ -189,7 +187,7 @@
   background-color: #747474;
 }
 
-/* Styling for opening-time and contact-address sections */
+
 .opening-time,
 .contact-adress {
   flex: 1;
@@ -197,12 +195,12 @@
   font-size: 1.2em;
 }
 
-/* Styling for the form-group paragraph */
+
 .form-group p {
   font-size: 1.2em;
 }
 
-/* Styling for opening-time and contact-address paragraphs within a span */
+
 .opening-time p span,
 .contact-adress p span {
   display: block;
@@ -248,8 +246,8 @@
   }
 
   .section-intro h1 {
-    /* font-size: 8 em; */
-    font-size: large ;
+    font-size: 4 em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: grey;
     animation: neon 1s linear infinite alternate;
   }
@@ -264,15 +262,9 @@
       transform: translateX(90%); 
     }
   } */
-
-
-/* added addition codes here for the couse pointer hover*/
-.section-intro h1:hover {
-  cursor: pointer; /* Change cursor on hover */
-}
-
-.section-intro h1:hover span {
-  transform: scale(1.5); /* Zoom effect on hover */
+  .social-media-ico
+{
+  float: center;
 }
 
   .about-section p,
