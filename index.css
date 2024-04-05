@@ -6,6 +6,7 @@
 .social-media-ico
 {
   float: left;
+  display: block;
 }
 /* General styling for navigation */
 .nav-flex-row {
@@ -237,6 +238,17 @@
 
 /* Additional media query for screens with a maximum width of 576px */
 @media screen and (max-width: 576px) {
+  .social-media-ico
+{
+  float: left;
+ align-items: center;
+ justify-items: center;
+ margin-top: 1%;
+ scroll-padding-bottom: 60%;
+
+
+
+}
   .section-intro {
     height: 300px;
   }
@@ -246,22 +258,27 @@
   }
 
   .section-intro h1 {
-    font-size: 4 em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: grey;
-    animation: neon 1s linear infinite alternate;
+    border-color: #edf8fa;
+    font-style: justify;
+    font-display: small;
+    font-size: 2.5em;
+    font-weight: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: scrollText1 2s linear infinite alternate;
   }
     /* text-justify: #ffffff;
     animation: neon 5s linear infinite alternate;    
-  }
+  } */
   @keyframes scrollText1 {
     0% {
-      transform: translateX(-90%); 
+      transform: translateX(-5%); 
     }
     100% {
-      transform: translateX(90%); 
+      transform: translateX(35%); 
     }
-  } */
+  }
+
+
   .social-media-ico
 {
   float: center;
