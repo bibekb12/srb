@@ -8,6 +8,12 @@
   float: left;
   display: block;
 }
+
+.social-media-ico a
+{
+  margin: 10px;
+}
+
 /* General styling for navigation */
 .nav-flex-row {
   display: flex;
