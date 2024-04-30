@@ -5,7 +5,7 @@
 
 .social-media-ico
 {
-  float: left;
+  float: center;
   display: block;
 }
 
@@ -317,5 +317,12 @@
   .contact-adress p span {
     font-size: 15px;
     text-align: center;
+  }
+  .kitchenmenu h1
+  {
+    overflow: visible;
+    float: right;
+    z-index: 1;
+
   }
 }
