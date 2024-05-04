@@ -2,16 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
 
+body{
+  background: #07a707;
+}
 
 .social-media-ico
 {
   float: center;
-  display: block;
 }
 
 .social-media-ico a
 {
   margin: 10px;
+  float: inline-start;
+
 }
 
 /* General styling for navigation */
@@ -318,11 +322,12 @@
     font-size: 15px;
     text-align: center;
   }
-  .kitchenmenu h1
+  .kitchenmenu h6
   {
     overflow: visible;
     float: right;
-    z-index: 1;
+    position: relative;
+    z-index: -1;
 
   }
 }
