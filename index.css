@@ -255,8 +255,13 @@ body{
  justify-items: center;
  margin-top: 1%;
  scroll-padding-bottom: 60%;
-
-
+}
+.social-media-ico a
+{
+  margin: 10px;
+  float: inline-start;
+  margin-left: 20px;
+  margin-right: 10px;
 
 }
   .section-intro {
@@ -322,12 +327,26 @@ body{
     font-size: 15px;
     text-align: center;
   }
+  .kitchenmenu{
+    margin: 10px;
+    border: #89f773;
+    padding: 5px;
+    position: relative;
+  }
+
   .kitchenmenu h6
   {
+    border-radius: 20px;
+    border-block-color: Green;
     overflow: visible;
     float: right;
-    position: relative;
-    z-index: -1;
+    position: absolute;
+    z-index: 1;
+    display: contents;
 
   }
+  .kitchenmenu h6:hover{
+    background: #06920d;
+  }
+  
 }
